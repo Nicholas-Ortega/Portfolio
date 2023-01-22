@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #212529;
+  background-color: #ffffff;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
   padding: 1em;
   align-items: center;
   justify-content: space-between;
-  background-color: #212529;
+  background-color: #ffffff;
 }
 
 h1, h2, h3{
@@ -70,7 +70,7 @@ h1, h2, h3{
   width: 60%;
   position: absolute;
   display: block;
-  background-color: #1e2970;
+  background-color: #ffffff;
   justify-content: center;
   padding: 1.8em;
   border: 3px solid #000000;
@@ -101,7 +101,7 @@ section.personal p {
   height: 100%;
   position: fixed;
   opacity: 0.9;
-  background-color: #000000;
+  background-color: #ffffff;
   transition: 0.5s;
   overflow-x: hidden;
 }
@@ -143,30 +143,30 @@ section.personal p {
   display: none;
 }
 
-.team-container {
+.Bio-container {
   margin: 1.5em 1.5em 1.5em 1.5em;
   border-radius: 10px;
   padding: 50px;
 }
 
-.semester-container{
-  background-color: #343a40;
+.images-container{
+  background-color: #ffffff;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 50px;
 }
 
-.semester-container section{
+.images-container section{
   background-color: white;
   margin: 1.5em 1.5em 1.5em 1.5em;
   padding: 1em;
 }
 
-.semester-container .column{
+.images-container .column{
   width: 90%;
 }
 
-.semester-container a {
+.images-container a {
   padding: 1em;
   color: rgb(0, 0, 238);
 }
@@ -206,8 +206,8 @@ section h4 {
   background-color: #dece9c;
 }
 
-.semester-container h2,
-.team-container h2 {
+.images-container h2,
+.Bio-container h2 {
   text-align: center;
   padding-bottom: 1rem;
 }
@@ -216,7 +216,7 @@ footer{
   padding: 20px;
   color: #f1f1f1;
   text-align: center;
-  background-color: #0e1111;
+  background-color: #ffffff;
 }
 
 footer a {
@@ -238,16 +238,11 @@ footer a {
   .img-txt-container,
   .img-txt-container img,
   .txt-container,
-  .semester-container {
+  .images-container {
     width: 100%;
     display: block; /* Stops it from floating */
     margin-bottom: 20px;
   }
-  
-   #automated-drone {
-    font-size: 18px;
-  }
-    
   #menu-icon {
     display: unset;
     color: #dece9c;
