@@ -77,18 +77,18 @@ h1, h2, h3{
   opacity: .75;
 }
 
-section.mission {
+section.personal {
   padding: 2em;
 }
 
-section.mission h2 {
+section.personal h2 {
   font-size: 24px;
   text-align: center;
   text-decoration: underline;
   margin-bottom: 0.5em;
 }
 
-section.mission p {
+section.personal p {
   color: #f1f1f1
 }
 
